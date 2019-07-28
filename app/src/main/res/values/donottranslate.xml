@@ -2,9 +2,11 @@
 <resources>
     <string name="tusky_website" translatable="false">https://tusky.app</string>
     <string name="about_app_version">%1$s %2$s</string>
+    <string name="app_name" translatable="false">FediEkklesia</string>
+    <string name="app_website" translatable="false">https://github.com/Ryochan7/FediEkklesia</string>
 
     <string name="oauth_scheme" translatable="false">oauth2redirect</string>
-    <string name="preferences_file_key" translatable="false">com.keylesspalace.tusky.PREFERENCES</string>
+    <string name="preferences_file_key" translatable="false">com.ryochan7.fediekklesia.PREFERENCES</string>
 
     <string name="at_symbol" translatable="false">\@</string>
     <string name="hash_symbol" translatable="false">#</string>
@@ -122,7 +124,7 @@
         <item>spinster.xyz</item>
     </string-array>
 
-    <string name="rick_roll_url">https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
+    <string name="rick_roll_url">https://www.youtube.com/watch?v=KqQOXeNWUnE</string>
 
 
     <string-array name="poll_duration_names">

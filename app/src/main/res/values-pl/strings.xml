@@ -187,7 +187,9 @@
     <string name="notification_title_summary">%d nowych powiadomień</string>
     <string name="description_account_locked">Konto zablokowane</string>
     <string name="about_title_activity">O programie</string>
-    <string name="about_tusky_license">Tusky jest wolnym i otwartoźródłowym oprogramowaniem. Jest on dostępny na licencji GNU General Public License w wersji trzeciej. Możesz przeczytać przetłumaczoną treść licencji <a href="https://web.archive.org/web/20171024013739/http://itlaw.computerworld.pl/wp-content/uploads/2008/03/powszechna-licencja-publiczna-gnu_v2.pdf">tutaj</a></string>
+    <string name="about_tusky_license">FediEkklesia jest wolnym i otwartoźródłowym oprogramowaniem.
+        Jest on dostępny na licencji GNU General Public License w wersji trzeciej.
+        Możesz przeczytać przetłumaczoną treść licencji <a href="https://web.archive.org/web/20171024013739/http://itlaw.computerworld.pl/wp-content/uploads/2008/03/powszechna-licencja-publiczna-gnu_v2.pdf">tutaj</a>.</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
@@ -195,14 +197,14 @@
          * the url can be changed to link to the localized version of the license.
     -->
     <string name="about_project_site">        Strona projektu:\n
-        https://tusky.app
+        https://github.com/Ryochan7/FediEkklesia
     </string>
     <string name="about_bug_feature_request_site">        Zgłoszenia błędów i propozycje funkcji:\n
-        https://github.com/tuskyapp/Tusky/issues
+        https://github.com/Ryochan7/FediEkklesia
     </string>
-    <string name="about_tusky_account">Profil Tusky’ego</string>
-    <string name="status_share_content">Udostępnij zawartość wpisu</string>
-    <string name="status_share_link">Udostępnij link do wpisu</string>
+    <string name="about_tusky_account">Profil FediEkklesia’ego</string>
+    <string name="status_share_content">Udostępnij zawartość postu</string>
+    <string name="status_share_link">Udostępnij link do postu</string>
     <string name="status_media_images">Obrazy</string>
     <string name="status_media_video">Wideo</string>
     <string name="state_follow_requested">Wysłano prośbę o możliwość śledzenia</string>
@@ -249,7 +251,7 @@
     <string name="expand_collapse_all_statuses">Rozwiń/zwiń wszystkie wpisy</string>
     <string name="action_open_toot">Otwórz wpis</string>
     <string name="restart_required">Wymagane jest ponowne uruchomienie</string>
-    <string name="restart_emoji">Musisz uruchomić ponownie Tuskyego, aby zastosować zmiany</string>
+    <string name="restart_emoji">Musisz uruchomić ponownie FediEkklesiaego, aby zastosować zmiany</string>
     <string name="later">Później</string>
     <string name="restart">Uruchom ponownie</string>
     <string name="caption_systememoji">Domyślny zestaw emoji tego urządzenia</string>
@@ -259,7 +261,7 @@
     <string name="account_moved_description">%1$s przeniósł się na:</string>
     <string name="reblog_private">Podbij grupie docelowej autora oryginału</string>
     <string name="unreblog_private">Cofnij podbicie</string>
-    <string name="license_description">Tusky zawiera kod i zasoby następujących projektów open source:</string>
+    <string name="license_description">FediEkklesia zawiera kod i zasoby następujących projektów open source:</string>
     <string name="license_apache_2">Na licencji Apache (kopia poniżej)</string>
     <string name="profile_metadata_label">Metadane profilu</string>
     <string name="profile_metadata_add">dodaj dane</string>

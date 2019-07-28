@@ -31,9 +31,10 @@
     </style>
 
     <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/background_splash</item>
-        <item name="colorPrimary">@color/tusky_grey_10</item>
-        <item name="colorPrimaryDark">@color/tusky_grey_10</item>
+        <!--<item name="android:windowBackground">@drawable/background_splash</item>-->
+        <item name="android:windowBackground">@drawable/background_temple_splash</item>
+        <item name="colorPrimary">@color/color_primary_dark_dark</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark_dark</item>
         <item name="android:windowNoTitle">true</item>
     </style>
 

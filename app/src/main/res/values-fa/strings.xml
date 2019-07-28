@@ -195,21 +195,24 @@
     <string name="notification_title_summary">%d برهم‌کنش جدید</string>
     <string name="description_account_locked">حساب قفل‌شده</string>
     <string name="about_title_activity">درباره</string>
-    <string name="about_tusky_license">تاسکی نرم‌افزاری آزاد است که تحت نگارش ۳ از پروانهٔ جامع همگانی گنو منتشر شده است. پروانه را می‌توانید از این‌جا ببینید:
-\n https://www.gnu.org/licenses/gpl-3.0.en.html</string>
+    <string name="about_tusky_license">FediEkklesia  یک برنامه آزاد و متن‌باز است که تحت مجوز  GNU General Public License Version 3.    منتشر شده است.\n
+                شما می‌توانید مجوز را از اینجا ببینید:\n
+    https://www.gnu.org/licenses/gpl-3.0.en.html</string>
     <!-- note to translators:
          * you should think of “free” as in “free speech,” not as in “free beer”.
            We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom,
            to show we do not mean the software is gratis. Source: https://www.gnu.org/philosophy/free-sw.html
          * the url can be changed to link to the localized version of the license.
     -->
-    <string name="about_project_site">پایگاه وب پروژه:
-\n https://tusky.app</string>
-    <string name="about_bug_feature_request_site">گزارش مشکلات و درخواست ویژگی‌ها:
-\n https://github.com/tuskyapp/Tusky/issues</string>
-    <string name="about_tusky_account">نمایهٔ تاسکی</string>
-    <string name="status_share_content">هم‌رسانی محتوای بوق</string>
-    <string name="status_share_link">هم‌رسانی پیوند بوق</string>
+    <string name="about_project_site">        سایت پروژه\n
+        https://github.com/Ryochan7/FediEkklesia
+    </string>
+    <string name="about_bug_feature_request_site">        گزارش خطا و درخواست ویژگی:\n
+        https://github.com/Ryochan7/FediEkklesia
+    </string>
+    <string name="about_tusky_account">نمایه FediEkklesia</string>
+    <string name="status_share_content">هم‌رسانی محتوی بوق</string>
+    <string name="status_share_link">هم‌رسانی لینک بوق</string>
     <string name="status_media_images">تصویرها</string>
     <string name="status_media_video">فیلم</string>
     <string name="state_follow_requested">تقاضای پیگیری شد</string>
@@ -263,9 +266,9 @@
     <string name="account_moved_description">%1$s منتقل شد به:</string>
     <string name="reblog_private">تقویت برای مخاطب اصلی</string>
     <string name="unreblog_private">لغو تقویت</string>
-    <string name="license_description">تاسکی شامل کد و دارایی‌هایی از پروژه‌های آزاد زیر است:</string>
-    <string name="license_apache_2">تحت پروانهٔ آپاچی (رونوشت در ادامه)</string>
-    <string name="profile_metadata_label">فرادادهٔ نمایه</string>
+    <string name="license_description">FediEkklesia شامل کد و دارایی‌های پروژه‌های منبع‌باز زیر است:</string>
+    <string name="license_apache_2">تحت مجوز آپاچی (رونوشت در ادامه)</string>
+    <string name="profile_metadata_label">متاداده نمایه</string>
     <string name="profile_metadata_add">افزودن داده</string>
     <string name="profile_metadata_label_label">برچسب</string>
     <string name="profile_metadata_content_label">محتوا</string>

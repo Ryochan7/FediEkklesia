@@ -16,8 +16,12 @@ def getGitSha = {
 
 android {
     compileSdkVersion 29
+    signingConfigs {
+        release {
+        }
+    }
     defaultConfig {
-        applicationId APP_ID
+        applicationId "com.ryochan7.fediekklesia"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 70

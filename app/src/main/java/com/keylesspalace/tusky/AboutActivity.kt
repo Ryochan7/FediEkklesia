@@ -38,7 +38,7 @@ class AboutActivity : BottomSheetActivity(), Injectable {
 
         aboutLicenseInfoTextView.setClickableTextWithoutUnderlines(R.string.about_tusky_license)
         aboutWebsiteInfoTextView.setClickableTextWithoutUnderlines(R.string.about_project_site)
-        aboutBugsFeaturesInfoTextView.setClickableTextWithoutUnderlines(R.string.about_bug_feature_request_site)
+        aboutUpstreamTextView.setClickableTextWithoutUnderlines(R.string.about_upstream_project)
 
         tuskyProfileButton.setOnClickListener {
             viewUrl(BuildConfig.SUPPORT_ACCOUNT_URL)

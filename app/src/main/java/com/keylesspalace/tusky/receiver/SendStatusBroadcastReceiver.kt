@@ -69,7 +69,7 @@ class SendStatusBroadcastReceiver : BroadcastReceiver() {
                 Log.w(TAG, "Account \"$senderId\" not found in database. Aborting quick reply!")
 
                 val builder = NotificationCompat.Builder(context, NotificationHelper.CHANNEL_MENTION + senderIdentifier)
-                        .setSmallIcon(R.drawable.ic_notify)
+                        .setSmallIcon(R.drawable.ic_temple_notify)
                         .setColor(ContextCompat.getColor(context, (R.color.tusky_blue)))
                         .setGroup(senderFullName)
                         .setDefaults(0) // So it doesn't ring twice, notify only in Target callback
@@ -111,7 +111,7 @@ class SendStatusBroadcastReceiver : BroadcastReceiver() {
                 context.startService(sendIntent)
 
                 val builder = NotificationCompat.Builder(context, NotificationHelper.CHANNEL_MENTION + senderIdentifier)
-                        .setSmallIcon(R.drawable.ic_notify)
+                        .setSmallIcon(R.drawable.ic_temple_notify)
                         .setColor(ContextCompat.getColor(context, (R.color.tusky_blue)))
                         .setGroup(senderFullName)
                         .setDefaults(0) // So it doesn't ring twice, notify only in Target callback

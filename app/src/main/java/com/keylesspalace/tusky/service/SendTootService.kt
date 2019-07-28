@@ -84,7 +84,7 @@ class SendTootService : Service(), Injectable {
             }
 
             val builder = NotificationCompat.Builder(this, CHANNEL_ID)
-                    .setSmallIcon(R.drawable.ic_notify)
+                    .setSmallIcon(R.drawable.ic_temple_notify)
                     .setContentTitle(getString(R.string.send_toot_notification_title))
                     .setContentText(notificationText)
                     .setProgress(1, 0, true)
@@ -177,7 +177,7 @@ class SendTootService : Service(), Injectable {
                     saveTootToDrafts(tootToSend)
 
                     val builder = NotificationCompat.Builder(this@SendTootService, CHANNEL_ID)
-                            .setSmallIcon(R.drawable.ic_notify)
+                            .setSmallIcon(R.drawable.ic_temple_notify)
                             .setContentTitle(getString(R.string.send_toot_notification_error_title))
                             .setContentText(getString(R.string.send_toot_notification_saved_content))
                             .setColor(ContextCompat.getColor(this@SendTootService, R.color.tusky_blue))
@@ -226,7 +226,7 @@ class SendTootService : Service(), Injectable {
             saveTootToDrafts(tootToCancel)
 
             val builder = NotificationCompat.Builder(this@SendTootService, CHANNEL_ID)
-                    .setSmallIcon(R.drawable.ic_notify)
+                    .setSmallIcon(R.drawable.ic_temple_notify)
                     .setContentTitle(getString(R.string.send_toot_notification_cancel_title))
                     .setContentText(getString(R.string.send_toot_notification_saved_content))
                     .setColor(ContextCompat.getColor(this@SendTootService, R.color.tusky_blue))

@@ -289,7 +289,7 @@ public class NotificationHelper {
                 PendingIntent.FLAG_UPDATE_CURRENT);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, getChannelId(account, body))
-                .setSmallIcon(R.drawable.ic_notify)
+                .setSmallIcon(R.drawable.ic_temple_notify)
                 .setContentIntent(summary ? summaryResultPendingIntent : eventResultPendingIntent)
                 .setDeleteIntent(deletePendingIntent)
                 .setColor(BuildConfig.DEBUG ? Color.parseColor("#19A341") : ContextCompat.getColor(context, R.color.tusky_blue))

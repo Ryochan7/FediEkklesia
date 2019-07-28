@@ -33,7 +33,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:drawableStart="@mipmap/ic_launcher"
+                    android:drawableStart="@mipmap/ic_temple_launcher"
                     android:drawablePadding="16dp"
                     android:gravity="center_vertical"
                     android:textColor="?android:attr/textColorPrimary"
@@ -68,6 +68,19 @@
                     tools:text="@string/about_tusky_license" />
 
                 <TextView
+                    android:id="@+id/aboutUpstreamTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingStart="@dimen/text_content_margin"
+                    android:paddingEnd="@dimen/text_content_margin"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    tools:text="@string/about_upstream_project" />
+
+
+                <TextView
                     android:id="@+id/aboutWebsiteInfoTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -80,18 +93,7 @@
                     android:textSize="16sp"
                     tools:text="@string/about_project_site" />
 
-                <TextView
-                    android:id="@+id/aboutBugsFeaturesInfoTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:lineSpacingMultiplier="1.2"
-                    android:paddingStart="@dimen/text_content_margin"
-                    android:paddingEnd="@dimen/text_content_margin"
-                    android:text="@string/about_bug_feature_request_site"
-                    android:textAlignment="center"
-                    android:textIsSelectable="true"
-                    android:textSize="16sp" />
+
 
                 <Button
                     android:id="@+id/tuskyProfileButton"
@@ -102,7 +104,8 @@
                     android:lineSpacingMultiplier="1.2"
                     android:text="@string/about_tusky_account"
                     android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone"/>
 
                 <Button
                     android:id="@+id/aboutLicensesButton"
