@@ -28,7 +28,7 @@
                 android:layout_marginBottom="50dp"
                 android:contentDescription="@null"
                 android:id="@+id/loginLogo"
-                app:srcCompat="@drawable/elephant_friend" />
+                app:srcCompat="@mipmap/splash" />
 
             <LinearLayout
                 android:id="@+id/loginInputLayout"
