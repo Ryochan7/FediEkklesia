@@ -327,7 +327,8 @@
             android:layout_height="wrap_content"
             android:textColor="?android:textColorTertiary"
             android:textSize="?attr/status_text_medium"
-            tools:text="500" />
+            tools:text="500"
+            android:visibility="gone"/>
 
         <com.keylesspalace.tusky.components.compose.view.TootButton
             android:id="@+id/composeTootButton"
