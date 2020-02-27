@@ -2,7 +2,6 @@
 <resources>
     <string name="tusky_website" translatable="false">https://tusky.app</string>
     <string name="about_app_version">%1$s %2$s</string>
-    <string name="app_name" translatable="false">FediEkklesia</string>
     <string name="app_website" translatable="false">https://github.com/Ryochan7/FediEkklesia</string>
 
     <string name="oauth_scheme" translatable="false">oauth2redirect</string>

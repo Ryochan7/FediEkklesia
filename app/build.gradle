@@ -21,7 +21,7 @@ android {
         }
     }
     defaultConfig {
-        applicationId "com.ryochan7.fediekklesia"
+        applicationId APP_ID
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 70
